@@ -25,7 +25,7 @@ export const AppContext = (props) => {
     return (
         <Context.Provider
             value={{
-                loading,
+                loading
                 setLoading,
                 searchResults,
                 selectedCategory,
