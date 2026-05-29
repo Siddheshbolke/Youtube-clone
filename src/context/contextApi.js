@@ -11,7 +11,7 @@ export const AppContext = (props) => {
 
     useEffect(() => {
         fetchSelectedCategoryData(selectedCategory);
-    }, [selectedCategory]);
+    }, [selectedCategory])
 
     const fetchSelectedCategoryData = (query) => {
         setLoading(true);
